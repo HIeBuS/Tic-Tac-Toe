@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+  <center><div id="container">
+    <h1>Tic Tac Toe</h1>
+    <table>
+        <tr>
+            <td class="tile" id="tile1" onclick="write_OX1();" onclick="ifWin();"></td>
+            <td class="tile" id="tile2" onclick="write_OX2();" onclick="ifWin();"></td>
+            <td class="tile" id="tile3" onclick="write_OX3();" onclick="ifWin();"></td>
+        </tr>
+        <tr>
+            <td class="tile" id="tile4" onclick="write_OX4();" onclick="ifWin();"></td>
+            <td class="tile" id="tile5" onclick="write_OX5();" onclick="ifWin();"></td>
+            <td class="tile" id="tile6" onclick="write_OX6();" onclick="ifWin();"></td>
+        </tr>
+        <tr>
+            <td class="tile" id="tile7" onclick="write_OX7();" onclick="ifWin();"></td>
+            <td class="tile" id="tile8" onclick="write_OX8();" onclick="ifWin();"></td>
+            <td class="tile" id="tile9" onclick="write_OX9();" onclick="ifWin();"></td>
+        </tr>
+    </table>
+
+    <input id="newGame" type="button" onclick="newGame();" value="Nowa Gra"></input>
+  </div></center>
+</body>
+</html>
